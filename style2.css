@@ -1,0 +1,129 @@
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://i.pinimg.com/originals/8b/56/cc/8b56cc363dda8922a1cf1bce1e2bdae3.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    margin: auto;
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 25px 50px 0px 75px;
+    font-family:  "fantasy", 'Times New Roman', Times, serif;
+    display: block;
+    float: left;  
+}
+
+
+.loginbox{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+    
+}
+
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    text-align: center;
+    
+    
+}
+
+
+
+.form input{
+     font-family: "fantasy", sans-serif;
+     outline: 1;
+     background: transparent;
+     width: 100%;
+     border: 0;
+     margin: 0 0 15px;
+     padding: 15px;
+     box-sizing: border-box;
+     font-size: 28px;
+     text-align: center;
+     
+}
+
+.form button{
+    font-family: "fantasy", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: blue;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+    background: green;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: white;
+    font-size: 15px;
+
+}
+
+.form .message a{
+    color: white;
+    text-decoration: none;
+}
+
+.form .registerform{
+    display: none;
+}
+
+
+.hamburger{
+    position: relative;  
+    cursor: pointer;
+    float:  right;
+    padding: 30px 50px 0px 50px;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+.nav {
+
+  display: inline-block;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 75px 0 0 75px;
+    
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "fantasy", 'Times New Roman', Times, serif;
+    padding: 42px;
+    text-align: center;
+    
+    
+}
+
+

@@ -1,0 +1,73 @@
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://slm-assets3.secondlife.com/assets/7263897/view_large/SA1.jpg?1362225314");
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+}
+
+.alphabet {
+    list-style-type: none;
+    margin:90px auto 0;
+    padding:0;
+    cursor: pointer;
+    width:80%;
+    text-align:center;
+}
+
+.alphabet li {
+    float: left;
+    margin:0;
+    padding:0;
+    border-right:1px solid darkgrey;
+    font-size: 20px;
+    -moz-box-sizing:border-box;
+    color:white;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    width:3.84%;
+    min-width:1em
+}
+
+.alphabet li:last-child {
+    border-right: none;
+}
+
+.alphabet li:hover {
+    color:blue;
+    background-color: white;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul{
+    color: whitesmoke;
+    list-style-type: none;
+    font-size: 20px;
+
+}
+
+li{
+    padding: 5px;
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 30px;
+}

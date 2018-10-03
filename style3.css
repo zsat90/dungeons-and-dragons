@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://slm-assets3.secondlife.com/assets/7263897/view_large/SA1.jpg?1362225314");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    margin: 0 auto;
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 25px 50px 0px 75px;
+    font-family:  "fantasy", 'Times New Roman', Times, serif;
+     
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 40px;
+    font-size: 25px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+    color: whitesmoke;
+    font-family: "fantasy", 'Times New Roman', Times, serif
+
+}
+
+ ul{
+    color: whitesmoke;
+    list-style-type: none;
+    font-size: 22px;
+
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    color: white;
+    cursor: pointer;
+}
+
+a:hover{
+    color: blue;
+}
